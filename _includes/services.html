@@ -1,37 +1,61 @@
 <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Qué queremos</h2>
+                <h3 class="section-subheading text-muted">El texto de la petición, en varios idiomas</h3>
             </div>
         </div>
-    </section>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <span class="flag-icon flag-icon-es"></span>
+                </span>
+                <h4 class="service-heading">¡1 MILLÓN DE FIRMAS PARA EVITAR LA MUERTE DE MEDIO MILLÓN DE COCHINILLOS AL
+                    AÑO!</h4>
+                <div class="text-muted">
+                    {% capture es %}{% include manifestos/es.md %}{% endcapture %}
+                    {{ es | markdownify }}
+                </div>
+                <a href="http://chng.it/gvvFXGK7" class="page-scroll btn btn-xl">Firmar</a>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <span class="flag-icon flag-icon-us"></span>
+                </span>
+                <h4 class="service-heading">A MILLION SIGNATURES TO AVOID THE DEATH OF HALF A MILLION PIGS A YEAR!</h4>
+                <div class="text-muted">
+                    {% capture en %}{% include manifestos/en.md %}{% endcapture %}
+                    {{ en | markdownify }}
+                </div>
+                <a href="http://chng.it/gvvFXGK7" class="page-scroll btn btn-xl">Sign</a>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <span class="flag-icon flag-icon-de"></span>
+                </span>
+                <h4 class="service-heading">EINE MILLION UNTERSCHRIFTEN UM DEN TOD VON EINER HALBEN MILLION SCHWEINEN IM
+                    JAHR ZU VERHINDERN!</h4>
+                <div class="text-muted">
+                    {% capture de %}{% include manifestos/de.md %}{% endcapture %}
+                    {{ de | markdownify }}
+                </div>
+                <a href="http://chng.it/gvvFXGK7" class="page-scroll btn btn-xl">Unterschreiben</a>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <span class="flag-icon flag-icon-it"></span>
+                </span>
+                <h4 class="service-heading">1 MILIONE DI FIRME PER EVITARE LA MORTE DI MEZZA MILIONE DI SUINI UN ANNO!</h4>
+                <div class="text-muted">
+                    {% capture it %}{% include manifestos/it.md %}{% endcapture %}
+                    {{ it | markdownify }}
+                </div>
+                <a href="http://chng.it/gvvFXGK7" class="page-scroll btn btn-xl">Firmare</a>
+            </div>
+        </div>
+    </div>
+</section>
