@@ -1,0 +1,16 @@
+url: https://y7kim.github.io
+baseurl: /agency-jekyll-theme/
+
+# Site settings
+title: Stop Macro Matadero Zafra
+email: stopmacromataderozafra@gmail.com
+description: "Detengamos la construcción del Macro Matadero de Zafra. Firma la petición y juntos podremos ponerle fin a esto."
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/StopMacromataderoZafra/
+
+# Build settings
+markdown: kramdown
+permalink: pretty
