@@ -269,13 +269,20 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl | prepend: site.url }}/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+#header-zafra {
+    background-image: url('{{ site.baseurl | prepend: site.url }}/img/header-zafra.jpg');
+}
+
+#header-home {
+    background-image: url('{{ site.baseurl | prepend: site.url }}/img/header-home.jpg');
 }
 
 header .intro-text {
