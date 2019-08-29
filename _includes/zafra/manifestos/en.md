@@ -2,7 +2,6 @@ In Zafra (Badajoz) a project is underway to begin the works of what will be the 
 
 
 - The stakeholders estimate an investment of 17 million euros and a workforce that will reach a hundred employees in full operation.
-
 - The initial forecast is to sacrifice 142,500 pigs per year. That is, 240 pigs per hour, to which we must add 120 pigs being butchered at the same time.
 
 From the first year of operation and on more animals will be killed in a gradual manner. It would be 213,750 pigs in a second phase; 256,500 in the third and the maximum figure of 468,000 annual sacrifices would be reached, with forecast included of possible extension in the lands purchased in the municipal pasture of Zafra.

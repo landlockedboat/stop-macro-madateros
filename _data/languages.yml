@@ -1,0 +1,21 @@
+en:
+  label: English
+  flag-name: gb
+es:
+  label: Español
+  flag-name: es
+de:
+  label: Deutsche
+  flag-name: de
+it:
+  label: Italiano
+  flag-name: it
+fr:
+  label: Française
+  flag-name: fr
+ru:
+  label: Русский
+  flag-name: ru
+jp:
+  label: 日本語
+  flag-name: jp
