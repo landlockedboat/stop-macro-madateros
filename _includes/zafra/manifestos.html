@@ -9,7 +9,11 @@
             </div>
         </div>
         <style>
-        div.row p, div.row li { font-family: Montserrat; font-size: 16pt }
+            div.row p,
+            div.row li {
+                font-family: Montserrat;
+                font-size: 16pt
+            }
         </style>
         <div class="row">
             {% if page.language == 'es' %}
@@ -20,7 +24,28 @@
             {% capture en %}{% include zafra/manifestos/en.md %}{% endcapture %}
             {{ en | markdownify }}
             {% endif %}
-
-            <div class="text-center"><a href="http://chng.it/gvvFXGK7" class="page-scroll btn btn-xl">{{ site.data.translations['sign'][page.language] }}</a></div>
+            {% if page.language == 'de' %}
+            {% capture de %}{% include zafra/manifestos/de.md %}{% endcapture %}
+            {{ de | markdownify }}
+            {% endif %}
+            {% if page.language == 'it' %}
+            {% capture it %}{% include zafra/manifestos/it.md %}{% endcapture %}
+            {{ it | markdownify }}
+            {% endif %}
+            {% if page.language == 'fr' %}
+            {% capture fr %}{% include zafra/manifestos/fr.md %}{% endcapture %}
+            {{ fr | markdownify }}
+            {% endif %}
+            {% if page.language == 'ru' %}
+            {% capture ru %}{% include zafra/manifestos/ru.md %}{% endcapture %}
+            {{ ru | markdownify }}
+            {% endif %}
+            {% if page.language == 'jp' %}
+            {% capture jp %}{% include zafra/manifestos/jp.md %}{% endcapture %}
+            {{ jp | markdownify }}
+            {% endif %}
         </div>
+        <br>
+        <div class="text-center"><a href="http://chng.it/gvvFXGK7"
+                class="page-scroll btn btn-xl">{{ site.data.translations['sign'][page.language] }}</a></div>
 </section>
