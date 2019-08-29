@@ -1,0 +1,31 @@
+<!-- Services Section -->
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ site.data.translations-binefar['manifestoTitle'][page.language] }}</h2>
+                <h3 class="section-subheading text-muted">
+                    {{ site.data.translations-binefar['manifestoSubtitle'][page.language] }}</h3>
+            </div>
+        </div>
+        <style>
+            div.row p,
+            div.row li {
+                font-family: Montserrat;
+                font-size: 16pt
+            }
+        </style>
+        <div class="row">
+            {% if page.language == 'es' %}
+            {% capture es %}{% include binefar/manifestos/es.md %}{% endcapture %}
+            {{ es | markdownify }}
+            {% endif %}
+            {% if page.language == 'en' %}
+            {% capture en %}{% include binefar/manifestos/en.md %}{% endcapture %}
+            {{ en | markdownify }}
+            {% endif %}
+        </div>
+        <br>
+        <div class="text-center"><a href="http://chng.it/CGPzJT6prM"
+                class="page-scroll btn btn-xl">{{ site.data.translations-binefar['sign'][page.language] }}</a></div>
+</section>

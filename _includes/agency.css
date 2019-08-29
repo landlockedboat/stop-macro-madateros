@@ -277,6 +277,10 @@ header {
     -o-background-size: cover;
 }
 
+#header-binefar {
+    background-image: url('{{ site.baseurl | prepend: site.url }}/img/header-binefar.jpg');
+}
+
 #header-zafra {
     background-image: url('{{ site.baseurl | prepend: site.url }}/img/header-zafra.jpg');
 }

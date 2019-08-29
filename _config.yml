@@ -1,12 +1,7 @@
 # Site settings
-title: Stop Macro Matadero Zafra
+title: Stop Macro Mataderos
 email: stopmacromataderozafra@gmail.com
-description: "Detengamos la construcción del Macro Matadero de Zafra. Firma la petición y juntos podremos ponerle fin a esto."
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: facebook
-    url: https://www.facebook.com/StopMacromataderoZafra/
+description: "Detengamos la construcción de los Macro Mataderos. Firma las peticiones y juntos podremos ponerle fin a esto."
 
 # Build settings
 markdown: kramdown
